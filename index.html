@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap"
+        />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="themes.css" />
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
+        <title>Pomodoro</title>
+    </head>
+
+    <body>
+        <h1>Pomodoro</h1>
+
+        <div id="container">
+            <div id="intervals">
+                <button onclick="work()" id="work">Work</button>
+                <button onclick="short()" id="short">Short break</button>
+                <button onclick="long()" id="long">Long break</button>
+            </div>
+            <div id="display">00:00:00</div>
+
+            <div id="controls">
+                <button onclick="reset()" id="reset">
+                    <span class="material-symbols-outlined">restart_alt</span>
+                </button>
+                <button onclick="play()" id="play">
+                    <span class="material-symbols-outlined">play_arrow</span>
+                </button>
+                <button onclick="skip()" id="skip">
+                    <span class="material-symbols-outlined">skip_next</span>
+                </button>
+            </div>
+        </div>
+
+        <div id="round">#0</div>
+
+        <script src="scripts.js"></script>
+    </body>
+</html>

@@ -1,0 +1,64 @@
+:root,
+:root.red {
+    --background: hsl(0, 77%, 62%);
+    --container: hsl(0, 51%, 47%);
+    --button-1: hsl(0, 51%, 57%);
+    --button-2: hsl(0, 51%, 67%);
+    --button-3: hsl(0, 51%, 77%);
+}
+
+:root.blue {
+    --background: hsl(220, 50%, 60%);
+    --container: hsl(220, 70%, 50%);
+    --button-1: hsl(220, 70%, 60%);
+    --button-2: hsl(220, 70%, 70%);
+    --button-3: hsl(220, 70%, 80%);
+}
+
+:root.green {
+    --background: hsl(140, 50%, 60%);
+    --container: hsl(140, 50%, 50%);
+    --button-1: hsl(140, 50%, 60%);
+    --button-2: hsl(140, 50%, 70%);
+    --button-3: hsl(140, 50%, 80%);
+}
+
+:root.purple {
+    --background: hsl(270, 60%, 60%);
+    --container: hsl(270, 70%, 50%);
+    --button-1: hsl(270, 70%, 60%);
+    --button-2: hsl(270, 70%, 70%);
+    --button-3: hsl(270, 70%, 80%);
+}
+
+:root.orange {
+    --background: hsl(30, 70%, 60%);
+    --container: hsl(30, 70%, 50%);
+    --button-1: hsl(30, 70%, 60%);
+    --button-2: hsl(30, 70%, 70%);
+    --button-3: hsl(30, 70%, 80%);
+}
+
+:root.teal {
+    --background: hsl(180, 50%, 60%);
+    --container: hsl(180, 50%, 50%);
+    --button-1: hsl(180, 50%, 60%);
+    --button-2: hsl(180, 50%, 70%);
+    --button-3: hsl(180, 50%, 80%);
+}
+
+:root.yellow {
+    --background: hsl(50, 70%, 60%);
+    --container: hsl(50, 70%, 50%);
+    --button-1: hsl(50, 70%, 60%);
+    --button-2: hsl(50, 70%, 70%);
+    --button-3: hsl(50, 70%, 80%);
+}
+
+:root.pink {
+    --background: hsl(330, 70%, 70%);
+    --container: hsl(330, 70%, 60%);
+    --button-1: hsl(330, 70%, 70%);
+    --button-2: hsl(330, 70%, 80%);
+    --button-3: hsl(330, 70%, 90%);
+}
